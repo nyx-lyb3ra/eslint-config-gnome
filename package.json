@@ -4,7 +4,10 @@
   "homepage": "https://codeberg.org/nyx_lyb3ra/eslint-config-gnome",
   "bugs": "https://codeberg.org/nyx_lyb3ra/eslint-config-gnome/issues",
   "license": "MIT",
-  "author": "nyx (https://nyx.liber.ar)",
+  "author": {
+    "name": "nyx",
+    "url": "https://nyx.liber.ar"
+  },
   "repository": {
     "type": "git",
     "url": "https://codeberg.org/nyx_lyb3ra/eslint-config-gnome.git"
