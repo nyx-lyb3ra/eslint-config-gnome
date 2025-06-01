@@ -1,3 +1,9 @@
 import type { ConfigArray } from "typescript-eslint";
-declare const config: ConfigArray;
-export default config;
+
+declare const _default: {
+  configs: {
+    recommended: ConfigArray;
+  };
+};
+
+export default _default;
