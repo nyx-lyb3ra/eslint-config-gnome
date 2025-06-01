@@ -31,6 +31,12 @@ export default {
             },
           ],
           "@typescript-eslint/no-loop-func": "error",
+          "@typescript-eslint/no-misused-promises": [
+            "error",
+            {
+              checksVoidReturn: false,
+            },
+          ],
           "@typescript-eslint/no-shadow": "error",
           "@typescript-eslint/no-unnecessary-condition": [
             "error",
