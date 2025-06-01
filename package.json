@@ -1,0 +1,34 @@
+{
+  "name": "@nyx_lyb3ra/eslint-config-gnome",
+  "version": "1.0.0",
+  "homepage": "https://codeberg.org/nyx_lyb3ra/eslint-config-gnome",
+  "bugs": "https://codeberg.org/nyx_lyb3ra/eslint-config-gnome/issues",
+  "license": "MIT",
+  "author": "nyx_lyb3ra (https://nyx.liber.ar)",
+  "repository": {
+    "type": "git",
+    "url": "https://codeberg.org/nyx_lyb3ra/eslint-config-gnome.git"
+  },
+  "type": "module",
+  "exports": {
+    "import": "./index.js",
+    "types": "./index.d.ts"
+  },
+  "dependencies": {
+    "@eslint/js": "^9.28.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.4.1",
+    "typescript-eslint": "^8.33.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "typescript": ">=5.8.0"
+  },
+  "engines": {
+    "bun": ">=1.0.0",
+    "node": ">=22.0.0"
+  }
+}
