@@ -12,11 +12,11 @@
     "import": "./index.js",
     "types": "./index.d.ts"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://codeberg.org/nyx_lyb3ra/eslint-config-gnome.git"
   },
-  "type": "module",
   "dependencies": {
     "@eslint/js": "^10.0.1",
     "eslint-config-prettier": "^10.1.8",
