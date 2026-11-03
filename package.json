@@ -8,6 +8,10 @@
     "name": "Naiara Gomez Castro",
     "url": "https://naiara.one/"
   },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "exports": {
     "import": "./index.js",
     "types": "./index.d.ts"
